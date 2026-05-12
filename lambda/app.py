@@ -3,7 +3,7 @@ import json
 def lambda_handler(event, context):
 
     response = {
-        "message": "GitHub Actions CI/CD Working Successfully!"
+        "message": "Automatic CI/CD Deployment Successful!"
     }
 
     return {
