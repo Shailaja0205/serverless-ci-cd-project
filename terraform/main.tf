@@ -1,6 +1,6 @@
 # 1. IAM Role for Lambda
 resource "aws_iam_role" "lambda_role" {
-  name = "lambda_execution_role_github"
+  name = "lambda_execution_role_github_v2"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
